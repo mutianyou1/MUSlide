@@ -65,12 +65,11 @@
 		D2AA7F491D6EF02600DBCA0C /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		D2AA7F4B1D6EF03400DBCA0C /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
 		D2AA7F4C1D6EF03400DBCA0C /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
-		D2AA7F4F1D6EF09300DBCA0C /* MUHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUHeader.pch; sourceTree = "<group>"; };
 		D2AA7F511D6EF1F300DBCA0C /* MUSlideMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideMenuManager.h; sourceTree = "<group>"; };
 		D2AA7F521D6EF1F300DBCA0C /* MUSlideMenuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSlideMenuManager.m; sourceTree = "<group>"; };
 		D2C1AD951D75321800185AC2 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		D2C1AD961D75321800185AC2 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
-		D2E44E351D76D2DC00CFF8AB /* MUSlideHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideHeader.h; sourceTree = "<group>"; };
+		D2E44E371D76DDFD00CFF8AB /* MUSlideHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +122,7 @@
 			children = (
 				D2AA7F141D6EEFA200DBCA0C /* AppDelegate.h */,
 				D2AA7F151D6EEFA200DBCA0C /* AppDelegate.m */,
-				D2AA7F4F1D6EF09300DBCA0C /* MUHeader.pch */,
-				D2E44E351D76D2DC00CFF8AB /* MUSlideHeader.h */,
+				D2E44E371D76DDFD00CFF8AB /* MUSlideHeader.h */,
 				D2AA7F441D6EEFAA00DBCA0C /* SlideMenuVC */,
 				D2AA7F4E1D6EF04F00DBCA0C /* ViewControllers */,
 				D2AA7F1A1D6EEFA200DBCA0C /* Main.storyboard */,
