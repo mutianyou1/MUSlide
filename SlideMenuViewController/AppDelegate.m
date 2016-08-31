@@ -11,6 +11,8 @@
 #import "LeftViewController.h"
 #import "RightViewController.h"
 #import "SubViewController.h"
+#import "MUSlideMenuManager.h"
+#import "MUSlideHeader.h"
 @interface AppDelegate ()
 
 @end

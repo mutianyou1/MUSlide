@@ -7,7 +7,7 @@
 //
 
 #import "MUSlideMenuViewController.h"
-
+#import "MUSlideHeader.h"
 typedef NS_ENUM(NSInteger, MUSlideType) {
     MUSlideTypeCenter,
     MUSlideTypeLeft,

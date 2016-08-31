@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "MUSlideMenuViewController.h"
 #import "AppDelegate.h"
-
+#import "MUSlideHeader.h"
 @interface MUSlideMenuManager(){
 
 }

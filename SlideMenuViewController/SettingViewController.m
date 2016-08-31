@@ -7,7 +7,7 @@
 //
 
 #import "SettingViewController.h"
-
+#import "MUSlideHeader.h"
 @interface SettingViewController ()
 @property (nonatomic, strong)UILabel *titleLabel;
 @end

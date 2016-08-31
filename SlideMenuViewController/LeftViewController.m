@@ -7,7 +7,8 @@
 //
 
 #import "LeftViewController.h"
-
+#import "MUSlideHeader.h"
+#import "MUSlideMenuManager.h"
 @interface LeftViewController ()
 
 @end

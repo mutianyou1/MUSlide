@@ -8,6 +8,8 @@
 
 #import "RightViewController.h"
 #import "SettingViewController.h"
+#import "MUSlideHeader.h"
+#import "MUSlideMenuManager.h"
 @interface RightViewController ()<UIScrollViewDelegate>
 @property (nonatomic, strong)UIScrollView *photoScrollView;
 @end
