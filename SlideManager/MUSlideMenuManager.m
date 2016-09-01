@@ -9,7 +9,6 @@
 #import "MUSlideMenuManager.h"
 #import <UIKit/UIKit.h>
 #import "MUSlideMenuViewController.h"
-#import "AppDelegate.h"
 #import "MUSlideHeader.h"
 @interface MUSlideMenuManager(){
 
@@ -72,9 +71,8 @@
     
 }
 
-- (void)addSlideViewContollerOnWindow{
-    AppDelegate *delegate = [UIApplication sharedApplication].delegate;
-    delegate.window.rootViewController = self.mainViewController;
+- (UIViewController *)rootViewController{
+    return self.mainViewController;
 }
 
 
