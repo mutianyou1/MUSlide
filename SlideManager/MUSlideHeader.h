@@ -13,5 +13,6 @@
 #define kSkyColor    [UIColor colorWithRed:248/255.0 green:197/255.0 blue:0/255.0 alpha:1.0]
 #define KHeightScale 670/KHeight
 #define KWidthScale 375/KWidth
-
+#import "AppDelegate.h"
+#import "MUSlideMenuManager.h"
 #endif /* MUSlideHeader_h */
