@@ -24,7 +24,6 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    [[MUSlideMenuManager manager] addSlideViewContollerOnWindow];
     
     UINavigationController *vc1 = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
     UINavigationController *vc2 = [[UINavigationController alloc]initWithRootViewController:[SubViewController new]];
@@ -34,7 +33,7 @@
     [[MUSlideMenuManager manager] setMiddleViewController:tab backGroundImageWithName:nil];
     [[MUSlideMenuManager manager] setRigthViewController:[RightViewController new] rightMargin:KWidth*0.7];
     [[MUSlideMenuManager manager] setLeftViewController:[LeftViewController new] leftMargin:KWidth*0.3];
-    
+    self.window.rootViewController = [[MUSlideMenuManager manager]rootViewController];
     return YES;
 }
 
