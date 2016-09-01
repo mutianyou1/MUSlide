@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SlideMenuViewController"
-  s.version      = "0.0.12"
+  s.version      = "0.0.13"
   s.summary      = "A slide model for ios viewcontroller"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'SlideManager/*.{h,m}'
+  s.source_files  = 'SlideMenuViewController/SlideManager/*.{h,m}'
   s.exclude_files = "Classes/Exclude"
 
    s.public_header_files = "SlideManager/MUSlideHeader.h"
