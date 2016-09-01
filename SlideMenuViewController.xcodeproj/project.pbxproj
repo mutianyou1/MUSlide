@@ -19,8 +19,8 @@
 		D2AA7F4A1D6EF02600DBCA0C /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA7F491D6EF02600DBCA0C /* LeftViewController.m */; };
 		D2AA7F4D1D6EF03400DBCA0C /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA7F4C1D6EF03400DBCA0C /* RightViewController.m */; };
 		D2C1AD971D75321800185AC2 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C1AD961D75321800185AC2 /* SettingViewController.m */; };
-		D2F9D9781D77FDA300BEB8D7 /* MUSlideMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F9D9751D77FDA300BEB8D7 /* MUSlideMenuManager.m */; };
-		D2F9D9791D77FDA300BEB8D7 /* MUSlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F9D9771D77FDA300BEB8D7 /* MUSlideMenuViewController.m */; };
+		D2F9D9821D78000500BEB8D7 /* MUSlideMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F9D97F1D78000500BEB8D7 /* MUSlideMenuManager.m */; };
+		D2F9D9831D78000500BEB8D7 /* MUSlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F9D9811D78000500BEB8D7 /* MUSlideMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,11 +65,11 @@
 		D2C1AD951D75321800185AC2 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		D2C1AD961D75321800185AC2 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		D2F9D9611D77DA9700BEB8D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D2F9D9731D77FDA300BEB8D7 /* MUSlideHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideHeader.h; sourceTree = "<group>"; };
-		D2F9D9741D77FDA300BEB8D7 /* MUSlideMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideMenuManager.h; sourceTree = "<group>"; };
-		D2F9D9751D77FDA300BEB8D7 /* MUSlideMenuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSlideMenuManager.m; sourceTree = "<group>"; };
-		D2F9D9761D77FDA300BEB8D7 /* MUSlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideMenuViewController.h; sourceTree = "<group>"; };
-		D2F9D9771D77FDA300BEB8D7 /* MUSlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSlideMenuViewController.m; sourceTree = "<group>"; };
+		D2F9D97D1D78000500BEB8D7 /* MUSlideHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideHeader.h; sourceTree = "<group>"; };
+		D2F9D97E1D78000500BEB8D7 /* MUSlideMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideMenuManager.h; sourceTree = "<group>"; };
+		D2F9D97F1D78000500BEB8D7 /* MUSlideMenuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSlideMenuManager.m; sourceTree = "<group>"; };
+		D2F9D9801D78000500BEB8D7 /* MUSlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSlideMenuViewController.h; sourceTree = "<group>"; };
+		D2F9D9811D78000500BEB8D7 /* MUSlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSlideMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,19 +187,19 @@
 		D2AA7F501D6EF1C300DBCA0C /* MainController */ = {
 			isa = PBXGroup;
 			children = (
-				D2F9D9721D77FDA300BEB8D7 /* SlideManager */,
+				D2F9D97C1D78000500BEB8D7 /* SlideManager */,
 			);
 			name = MainController;
 			sourceTree = "<group>";
 		};
-		D2F9D9721D77FDA300BEB8D7 /* SlideManager */ = {
+		D2F9D97C1D78000500BEB8D7 /* SlideManager */ = {
 			isa = PBXGroup;
 			children = (
-				D2F9D9731D77FDA300BEB8D7 /* MUSlideHeader.h */,
-				D2F9D9741D77FDA300BEB8D7 /* MUSlideMenuManager.h */,
-				D2F9D9751D77FDA300BEB8D7 /* MUSlideMenuManager.m */,
-				D2F9D9761D77FDA300BEB8D7 /* MUSlideMenuViewController.h */,
-				D2F9D9771D77FDA300BEB8D7 /* MUSlideMenuViewController.m */,
+				D2F9D97D1D78000500BEB8D7 /* MUSlideHeader.h */,
+				D2F9D97E1D78000500BEB8D7 /* MUSlideMenuManager.h */,
+				D2F9D97F1D78000500BEB8D7 /* MUSlideMenuManager.m */,
+				D2F9D9801D78000500BEB8D7 /* MUSlideMenuViewController.h */,
+				D2F9D9811D78000500BEB8D7 /* MUSlideMenuViewController.m */,
 			);
 			path = SlideManager;
 			sourceTree = "<group>";
@@ -337,10 +337,10 @@
 			files = (
 				D2AA7F191D6EEFA200DBCA0C /* ViewController.m in Sources */,
 				D2AA7F4A1D6EF02600DBCA0C /* LeftViewController.m in Sources */,
-				D2F9D9781D77FDA300BEB8D7 /* MUSlideMenuManager.m in Sources */,
+				D2F9D9821D78000500BEB8D7 /* MUSlideMenuManager.m in Sources */,
 				D2AA7F161D6EEFA200DBCA0C /* AppDelegate.m in Sources */,
 				D2C1AD971D75321800185AC2 /* SettingViewController.m in Sources */,
-				D2F9D9791D77FDA300BEB8D7 /* MUSlideMenuViewController.m in Sources */,
+				D2F9D9831D78000500BEB8D7 /* MUSlideMenuViewController.m in Sources */,
 				D2AA7F131D6EEFA200DBCA0C /* main.m in Sources */,
 				D2AA7F4D1D6EF03400DBCA0C /* RightViewController.m in Sources */,
 				D2443C941D6FF02C00B79F60 /* SubViewController.m in Sources */,
