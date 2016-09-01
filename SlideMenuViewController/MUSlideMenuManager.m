@@ -73,8 +73,8 @@
 }
 
 - (void)addSlideViewContollerOnWindow{
-    AppDelegate *delegate = [UIApplication sharedApplication].delegate;
-    delegate.window.rootViewController = self.mainViewController;
+    //AppDelegate *delegate = [UIApplication sharedApplication].delegate;
+    //delegate.window.rootViewController = self.mainViewController;
 }
 
 

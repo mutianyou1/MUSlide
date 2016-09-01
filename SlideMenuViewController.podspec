@@ -1,4 +1,5 @@
 #
+
 #  Be sure to run `pod spec lint SlideMenuViewController.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
@@ -16,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SlideMenuViewController"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "A slide model for ios viewcontroller"
 
   # This description is used to generate tags and improve search results.
